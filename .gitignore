@@ -1,0 +1,27 @@
+# Ignorar pasta do Git (nunca deve ser versionada dentro de outra)
+.git/
+
+# Dependências (caso use Node futuramente)
+node_modules/
+
+# Logs
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Arquivos de ambiente
+.env
+
+# Build / dist (caso use ferramentas depois)
+dist/
+build/
